@@ -1,4 +1,5 @@
-corps {
+  <style type="text/css">
+  corps {
     rembourrage gauche : 11em ;
     famille de polices : Georgia, "Times New Roman",
           Heures, empattements ;
@@ -26,7 +27,11 @@ corps {
     Couleur bleue }
   un : visité {
     couleur violet }
-  adresse {
-    marge supérieure : 1em ;
-    rembourrage haut : 1em ;
-    border-top : pointillé fin }
+  </style>
+</tête>
+
+.......
+
+#couper et coller sauf style dans nouveau dossier .css
+# puis remplacer  tous texte style inclue par :
+    link rel="stylesheet" href="monstyle.css">
