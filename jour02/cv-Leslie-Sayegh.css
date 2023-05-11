@@ -1,3 +1,55 @@
 body {
-    color: purple;
-    background-color: #d8da3d }
+    color: rgb(7, 6, 7);
+    background-color: #fbfbfa ;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    background-color: beige;
+    padding: 20px;
+    /*height: 100vh; /* réglez la hauteur en fonction de vos besoins */
+} 
+  
+article {
+    max-width: 800px; /* réglez la largeur maximale en fonction de vos besoins */
+}
+
+.colonne-droite {
+    border: 2px solid #ccc;
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+
+.text-center {
+    text-align: center;
+}
+
+.text-indent {
+    padding-left: 40px; /* La largeur de la tabulation */
+}
+
+a {
+    display: inline-block;
+    padding-left: 20px; /* Ajoutez de l'espace à gauche de l'icône */
+    font-size: 16px;
+    color: #333; /* Couleur du texte du lien */
+}
+  
+a i.fab.fa-linkedin {
+    position: absolute;
+    left: 0;
+    font-size: 24px;
+    color: #0077B5; /* Couleur de l'icône */
+}
+  
+.first-word-bold::first-word {
+    font-weight: bold;
+  }
+                               
