@@ -49,7 +49,7 @@ a i.fab.fa-linkedin {
     color: #0077B5; /* Couleur de l'icône */
 }
   
-.first-word-bold::first-word {
-    font-weight: bold;
-  }
-                               
+ .first-word-bold::first-word {
+  font-weight: bold;
+}
+                             
