@@ -1,0 +1,131 @@
+/* Style pour l'en-tête */
+header {
+    background-color: white;
+    height: 2.5cm;
+    width: 100%;
+  }
+  
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  #logo {
+    height: auto;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+  }
+  
+  .sub-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sub-menu li {
+    margin: 0 1rem;
+  }
+  
+  .sub-menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Style pour les deux colonnes */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .column {
+    width: 40%;
+    padding: 1rem;
+  }
+
+  .column {
+  text-align: center;
+  
+}
+
+  /* Style pour la colonne de gauche */
+  .image {
+    position: relative;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+
+  .btn-checkbox {
+    display: inline-block;
+    padding: 5px 5px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: purple;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+   
+  }
+  
+  
+  
+  .btn-checkbox:hover {
+    background-color: #333;
+    color: white;
+  }
+  
+  .btn-checkbox input[type="checkbox"] {
+    width: 0.5rem;
+    height: 1rem;
+    margin: 0;
+    padding: 0;
+    position: center;
+    top: 1px; /* adjust this value if necessary */
+    left: 0;
+    opacity: 1;
+    cursor: pointer;
+    -webkit-transform: scale(0.5); /* for Safari and Chrome */
+    transform: scale(0.5); /* for other browsers */
+  }
+  
+
+  
+  .btn-checkbox span {
+    margin-left: 1rem;
+  }
+  
+  /* Style pour la colonne de droite */
+  .column:last-child {
+    text-align: center;
+  }
+  
+  .column:last-child img {
+    width: 100%;
+    height: auto;
+  }
+  
